@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: dancing;
-    src: url(./DancingScript-VariableFont_wght.ttf);
+  font-family: dancing;
+  src: url(./DancingScript-VariableFont_wght.ttf);
 }
 
 body {
@@ -94,6 +94,10 @@ nav ul li a:hover {
   width: 33%;
 }
 
+.grilled {
+  color: #3f7c35;
+}
+
 .badge {
   display: inline-block;
   border: 2px solid #8ab87f;
@@ -106,7 +110,7 @@ nav ul li a:hover {
 }
 
 .left-content h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 6rem;
   line-height: 1;
   margin-bottom: 25px;
