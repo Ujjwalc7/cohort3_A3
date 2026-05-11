@@ -22,6 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  gap: 10px;
 }
 
 .logo h1 {
@@ -280,6 +281,9 @@ nav ul li a:hover {
   background: #f8c93f;
   left: -20px;
   top: 260px;
+  box-shadow:
+  inset 6px 6px 12px rgba(0,0,0,0.15),
+  inset -6px -6px 10px rgba(105, 99, 47, 0.8);
 }
 
 .red-sticker {
@@ -287,6 +291,9 @@ nav ul li a:hover {
   color: white;
   left: 50px;
   top: 350px;
+  box-shadow:
+  inset 6px 6px 12px rgba(0,0,0,0.15),
+  inset -6px -6px 10px rgba(102, 42, 42, 0.8);
 }
 
 /* RIGHT */
@@ -416,6 +423,7 @@ nav ul li a:hover {
   display: flex;
   gap: 20px;
   align-items: center;
+  box-shadow:0 15px 40px rgba(0,0,0,0.35);
 }
 
 .product-card img {
@@ -524,7 +532,7 @@ nav ul li a:hover {
     display: none;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   .right-content span {
     display: block;
   }
